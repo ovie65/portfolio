@@ -2,9 +2,45 @@
     #vanta-bg {
       width: 100%;
       height: 50px;
+      background: transparent;
     }
 
     .mainnav{
         
        
     }
+
+
+
+
+
+.mainee {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between; /* left + right side */
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background: transparent;
+}
+
+/* Left side (Home, About) */
+.left-buttons { 
+  gap: 20px;
+}
+
+/* Right side (Contact) */
+.right-button button {
+  margin-right: 20px;
+}
+
+/* Button design */
+.mainee button {
+  background: rgba(0, 255, 0, 0.2);
+  border: 1px solid lime;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
