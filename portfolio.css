@@ -7,7 +7,7 @@
   height:100%;
   z-index: 1;
   background: transparent;
-  pointer-events: none;
+  pointer-events: auto;
  
 }
 
