@@ -4,7 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OVIEPORTFOLIO</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> 
+ <link rel="stylesheet" href="portfolio.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <style>
+    
+  </style>
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
+  <script src="path/to/anime.iife.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/three@0.124.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
+  <script src="three.r134.min.js"></script>
+<script src="vanta.birds.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.birds.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/TextPlugin.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+   <script src="portfolio.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script
+  type="module"
+  
+  src="">
+</script>
+
     <style>
     
   </style>
@@ -14,7 +64,7 @@
 <body>
     
  
-
+ 
   
 
 
@@ -24,22 +74,28 @@
 <div class="main">
 
 
+
+  
+
  
-<nav class="navbar navbar-expand-lg bg-body-tertiary" id="headnav">
+<nav class="navbar navbar-expand-lg custom-navbar" id="headnav">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">OVIE</a>
+    <a class="navbar-brand" href="#" style="color: white;">OVIE</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 " style="display: flex; gap:25px;">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#" style="color:white;">Home</a>
         </li>
-       
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.html" style="color:white;">About</a>
+        </li>
+        
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+            Projects
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -48,11 +104,22 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
+                <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" style="color:white;">Contacts</a>
+        </li>
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+<div class="jj" style="color: white; font-size: 50px;display: flex;gap: 25px;">
+      <i class="fa-brands fa-facebook-f"></i>
+          <div class="spinner">
+    <div class="spinnerin"></div>
+</div>
+         <i class="fa-brands fa-facebook-f"></i>
+</div>
+
+<!-- <i class="fa-brands fa-twitter"></i>
+
+<i class="fa-brands fa-youtube"></i> -->
+      
     </div>
   </div>
 </nav>
@@ -66,71 +133,197 @@
 
 <div class="build">
 
-  
-
-
-
-
-
-
 <div class="main2">
 
 
-<div class="spline">
- <iframe src='https://my.spline.design/genkubgreetingrobot-fwXB65kN68dEenPIlEQCk9Ez/' frameborder='0' width='100%' height='100%'> </iframe>
+
+
+
+
+<section class="hero">
+ <div class="responsive-section">
+  <div class="column-right">
+    <!-- Content for right side (e.g., text) -->
+     <div class="kini">
+  <h3 id="kate">
+I Build</h3>
+<h1 class="hero-title">
+  Fast · Responsive · Animated
+</h1>
+ <h3 id="katett">
+  Web Experiences
+ </h3>
+ <p id="katkkk" style="color: white; font-size:18px;">
+  i'm ovie, a creative frontend developer <br>who blends mordern design with clean,functional <br> and  responsive web experiences. as well as passionate about <br>
+turning ideas into visually stunning, interactive website using mordern frameworks and animation 
+<!-- “I implement security-focused development practices to safeguard client websites and code from spying, tampering, or unauthorized reuse.” -->
+ </p>
 </div>
 
-
-
-
- <div class="container-md">
-    <h3 id="kate"><br><br><br>
-I Build Fast, Responsive And <br> Animated Web Experiences</h3>
-<p id="ovie5">I am ovie, a creative front-end developer <br>passionate about turning  ideas into clean,<br> anuvilate  websites, using mordern frameworks and tool.</p>
-
-
-<div class="card " id="imagehide">
-    <div class="card-image"><img src="WhatsApp Image 2026-01-20 at 2.22.13 AM.jpeg" class="img-fluid" alt="..." style="width:200px; height:130px;"></div>
-    <div class="category"> Illustration </div>
-    <div class="heading"> A heading that must span over two lines
-        <div class="author"> By <span class="name">Abi</span> 4 days ago</div>
+<div
+  class="slider"
+  style="--width: 200px;
+    --height: 100px;
+    --quantity: 9;"
+>
+  <div class="list">
+    <div class="item" style="--position: 1">
+      <div
+        class="card"
+        style="background: linear-gradient(to right, #ff7e5f, #feb47b)"
+      >
+        <p>HELLO THERE</p>
+        <p>Am Ashwin.A</p>
+      </div>
     </div>
-
-</div>
-<div class="mainpic">
- 
-      
-
-</div>
-
-
-
-<div class="main4">
-
- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.globe.min.js"></script>
-
-  
-
-
-  <div id="vanta-bg">
-   <p id="mediabuild"><br><br><br>gcgcghcghcghcgh</p>
+    <div class="item" style="--position: 2">
+      <div
+        class="card"
+        style="background: linear-gradient(to right, #6a11cb, #2575fc)"
+      >
+        <p>Do follow on Insta</p>
+        <p>ashwin_ambar_</p>
+      </div>
+    </div>
+    <div class="item" style="--position: 3">
+      <div
+        class="card"
+        style="background: linear-gradient(to right, #00c6ff, #0072ff)"
+      >
+        <p>Replace cards with images</p>
+        <p>for a image slider</p>
+      </div>
+    </div>
+    <div class="item" style="--position: 4">
+      <div
+        class="card"
+        style="background: linear-gradient(to right, #ff512f, #dd2476)"
+      >
+        <p>Html css only</p>
+        <p>Hover to stop the slides</p>
+      </div>
+    </div>
+    <div class="item" style="--position: 5">
+      <div
+        class="card"
+        style="background: linear-gradient(to right, #ffb6c1, #ff69b4)"
+      >
+        <p>Card 5</p>
+        <p>Content for card 5</p>
+      </div>
+    </div>
+    <div class="item" style="--position: 6">
+      <div
+        class="card"
+        style="background: linear-gradient(to right, #ff9a8b, #ffc3a0)"
+      >
+        <p>Card 6</p>
+        <p>Content for card 6</p>
+      </div>
+    </div>
+    <div class="item" style="--position: 7">
+      <div
+        class="card"
+        style="background: linear-gradient(to right, #a1c4fd, #c2e9fb)"
+      >
+        <p>Card 7</p>
+        <p>Modify it and use</p>
+      </div>
+    </div>
+    <div class="item" style="--position: 8">
+      <div
+        class="card"
+        style="background: linear-gradient(to right, #fbc2eb, #a18cd1)"
+      >
+        <p>Card 8</p>
+        <p>Content for card 8</p>
+      </div>
+    </div>
+    <div class="item" style="--position: 9">
+      <div
+        class="card"
+        style="background: linear-gradient(to right, #84fab0, #8fd3f4)"
+      >
+        <p>card 9</p>
+        <p>Content for card 9</p>
+      </div>
+    </div>
   </div>
+</div>
 
+
+
+ <!-- From Uiverse.io by codebykay101 --> 
+<div class="container" id="jill">
+  <div data-text="Github" style="--r:-15;" class="glass">
+    <svg viewBox="0 0 496 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+      ></path>
+    </svg>
+  </div>
+  <div data-text="Code" style="--r:5;" class="glass">
+    <svg viewBox="0 0 640 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
+      ></path>
+    </svg>
+  </div>
+  <div data-text="Earn" style="--r:25;" class="glass">
+    <svg viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M64 64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H64zm64 320H64V320c35.3 0 64 28.7 64 64zM64 192V128h64c0 35.3-28.7 64-64 64zM448 384c0-35.3 28.7-64 64-64v64H448zm64-192c-35.3 0-64-28.7-64-64h64v64zM288 160a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+      ></path>
+    </svg>
+  </div>
+</div>
+
+
+</div>
+  
+<script>
+  gsap.to(".kini", {
+    opacity:1,
+    y: 0,
+    duration:2,
+    ease: "power2.out"
+  });
+</script>
+
+
+
+
+<script>
+  gsap.registerPlugin(TextPlugin);
+
+gsap.fromTo(
+  ".hero-title",
+  { text: "" },
+  {
+    text: "Fast · Responsive · Animated",
+    duration: 2,
+    ease: "none"
+  }
+);
+</script>
+
+
+
+   <div class="column-left">
+    <!-- Content for left side (e.g., image) -->
+       <div class="spline">
+<iframe src='https://my.spline.design/genkubgreetingrobot-j7auV78lV6QHevi1dSVveOoI/' frameborder='0' width='100%' height='100%'></iframe>
+  </div>
+ 
+   
+  
+  </div> 
   <script>
-    VANTA.GLOBE({
-      el: "#vanta-bg",
-      mouseControls: true,
-      touchControls: true,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.0,
-      scaleMobile: 1.0,
-        color: 0x1010b1,      // globe line color
-       backgroundColor: 0xa1011, // background color
-       size: 0.80,
-           // globe point size
-    })
+    gsap.from(".spline", {
+      opacity: 0,
+      x: 200,
+      duration:2,
+    });
   </script>
 
 
@@ -138,10 +331,38 @@ I Build Fast, Responsive And <br> Animated Web Experiences</h3>
 
 
 
+  <!-- <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+let mm = gsap.matchMedia();
+
+mm.add("(max-width: 1024px)", () => { // screens 1024px and below
+  gsap.from(".fade", {
+    x: -80,             // start from left
+    opacity: 0,
+    duration: 0.8,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".fade",
+      start: "top 80%",
+      scrub: false
+    }
+  });
+});
+  </script> -->
+
+
+</section>
 
 
 
-</div>
+
+
+
+
+
+
+
 
   </div>
 
@@ -151,7 +372,12 @@ I Build Fast, Responsive And <br> Animated Web Experiences</h3>
 
 
 
+
 </body>
+
+<!-- <footer>
+<div class="footerrr" style="color: white; text-align: center;"><p>© 2024 OVeats Corporation. All rights reserved.</p></div>
+</footer> -->
 </html>
 
 
@@ -161,88 +387,126 @@ I Build Fast, Responsive And <br> Animated Web Experiences</h3>
 
 
 
-#headnav{
-  position: fixed;
-  width:100%;
-      z-index: 2;
-}
 
 
-.spline{
-  position: fixed;
-  z-index: 0;
-  width:100%;
-  height:100%;
-  z-index: 1;
-  background: transparent;
-  pointer-events: auto;
- 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .card {
-  width: 190px;
-  background: white;
-  padding: .4em;
-  border-radius: 6px;
-    position: relative;
-      z-index: 2;
-}
-
-.card-image {
-  background-color: rgb(236, 236, 236);
   width: 100%;
-  height: 130px;
-  border-radius: 6px 6px 0 0;
+  height: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: center;
 }
 
-.card-image:hover {
-  transform: scale(0.98);
+.card p {
+  font-size: 14px;
+  color: white;
 }
 
-.category {
-  text-transform: uppercase;
-  font-size: 0.7em;
-  font-weight: 600;
-  color: rgb(63, 121, 230);
-  padding: 10px 7px 0;
+.slider {
+  width: 100%;
+  height: var(--height);
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
+}
+.slider .list {
+  display: flex;
+  width: 100%;
+  min-width: calc(var(--width) * var(--quantity));
+  position: relative;
+}
+.slider .list .item {
+  width: var(--width);
+  height: var(--height);
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+  transition: filter 0.5s;
+  animation-delay: calc(
+    (10s / var(--quantity)) * (var(--position) - 1) - 10s
+  ) !important;
+}
+.slider .list .item img {
+  width: 100%;
+}
+@keyframes autoRun {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * -1);
+  }
+}
+.slider:hover .item {
+  animation-play-state: paused !important;
+  filter: grayscale(1);
+}
+.slider .item:hover {
+  filter: grayscale(0);
+}
+.slider[reverse="true"] .item {
+  animation: reversePlay 10s linear infinite;
+}
+@keyframes reversePlay {
+  from {
+    left: calc(var(--width) * -1);
+  }
+  to {
+    left: 100%;
+  }
 }
 
-.category:hover {
-  cursor: pointer;
-}
-
-.heading {
-  font-weight: 600;
-  color: rgb(88, 87, 87);
-  padding: 7px;
-}
-
-.heading:hover {
-  cursor: pointer;
-}
-
-.author {
-  color: gray;
-  font-weight: 400;
-  font-size: 11px;
-  padding-top: 20px;
-}
-
-.name {
-  font-weight: 600;
-}
-
-.name:hover {
-  cursor: pointer;
-}
-
-
-
-
-.newnew{
-
-}
 
 
 
@@ -251,84 +515,267 @@ I Build Fast, Responsive And <br> Animated Web Experiences</h3>
 
 
 
+html,body{
+   background: radial-gradient(circle at center, #0b1220, #000);
+ min-height: 100dvh;
 
-
-
-.main4{
-  z-index: 1;
-  background: transparent;
-}
-
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: n;
-    }
-
-    #vanta-bg {
-   display: none;
-     
-    }
-
-    #kate {
-      position: relative;
-      color:white;
-      z-index: 2;
-
-    }
    
-    #ovie5{
-   position: relative;
-      color:white;
-      z-index: 2;
-
-    }
-    
-
-
-
-
-@media only screen and (max-width: 768px){
-    
-
-    .spline{
-      display:none;
-    }
-
-      #vanta-bg {
-        position: fixed;
-     display: block;
-      width: 100%;
-      height: 50%;
-     z-index: -1;
-    }
-
-
-    #mediabuild{
-      color: white;
-    }
-
-    
-    #kate {
-    display:none;
-
-    }
-
-     #ovie5{
- display: none;
-
-    }
-    
-    #imagehide{
-      display: none;
-    }
-      
+  
 }
 
 
 
-@media (min-width: 600px) and (max-width: 1024px){}
-
+.hero-title {
 
   
+  font-size: 2.5rem;
+  color: #7dd3fc; 
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+
+.spline{
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50vh;
+  
+ 
+
+
+ 
+}
+
+.hero{
+transform: translateY(50px);
+min-height: 100dvh;
+min-height: 100vh;
+}
+
+iframe{
+  opacity:0.7;
+
+}
+
+
+#kate{
+  color:white ;
+}
+
+#katett{
+  color: white;
+  
+}
+.kini {
+  opacity:0;
+  transform: translateY(30px);
+}
+
+
+/* Container: Sets the children side-by-side and allows them to wrap on small screens */
+.responsive-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Optional spacing between columns */
+  padding: 20px;
+}
+
+/* Columns: Take up 50% width on large screens (minus gap) */
+.column-left, .column-right {
+  flex: 1; /* Makes columns grow to fill space */
+  min-width: 300px; /* Ensures they don't get too small before wrapping */
+}
+
+
+
+
+/* From Uiverse.io by codebykay101 */ 
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(50px);
+   
+}
+
+.container .glass {
+  position: relative;
+  width: 180px;
+  height: 200px;
+  background: linear-gradient(#fff2, transparent);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin: 0 -45px;
+  backdrop-filter: blur(10px);
+  transform: rotate(calc(var(--r) * 1deg));
+  
+
+}
+
+.container:hover .glass {
+  transform: rotate(0deg);
+  margin: 0 10px;
+}
+
+.container .glass::before {
+  content: attr(data-text);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.container .glass svg {
+  font-size: 2.5em;
+  fill: #fff;
+}
+
+
+
+
+/* ANIMATION */
+
+
+
+
+
+/* ANUMATION END */
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .spline{
+
+ transform: translateY(100px);
+ 
+}
+
+.container{
+   transform: translateY(50px);
+}
+
+
+  }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1100px) {
+
+  .hero-title {
+
+  font-size: 1.8rem;
+  
+  
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 800px){
+  .hero-title{
+      font-size: 1.5rem;
+      
+  }
+
+  
+  
+
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+body{
+  
+}
+.column-right{
+  transform: translateY(120px);
+}
+  .container {
+transform: translateY(50px);
+
+   
+}
+body{
+
+}
+.hero{
+  min-height: 100dvh;
+}
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+/*   
+.spline{
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50vh;
+  
+ 
+  
+
+} */
+ body{
+  
+ }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+.spline{
+  transform: translatey(-100px);
+  height:100vh;
+  
+ 
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
