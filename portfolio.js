@@ -34,7 +34,7 @@ window.addEventListener("load", () => {
   // Fade in entire main content
   .to(".main-content", {
     opacity: 1,
-    duration: 1,
+    duration: 0,
     pointerEvents: "auto", // Enable interactions
     onComplete: startMainAnimations // Trigger all landing animations
   });
@@ -56,7 +56,7 @@ function startMainAnimations() {
   gsap.to(".kini", {
     opacity: 1,
     x: 30,
-    duration: 3,
+    duration: 4,
     ease: "power2.out"
   });
 
