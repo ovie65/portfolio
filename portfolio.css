@@ -84,7 +84,7 @@
 .loader-letter {
   display: inline-block;
   opacity: 0;
-  animation: loader-letter-anim 4s linear;
+  animation: loader-letter-anim 2s linear;
   z-index: 2;
 }
 
