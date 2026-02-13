@@ -44,6 +44,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
 <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
    <script src="portfolio.js"></script>
 <script>
   AOS.init();
@@ -62,16 +63,20 @@
 
 
 
-<div class="main">
+
+  <div class="mainlll">
 
 
 
   
-
+ 
  
 <nav class="navbar navbar-expand-lg custom-navbar" id="headnav">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#" style="color: white;">OVIE</a>
+    <button class="button" data-text="Awesome">
+    <span class="actual-text">&nbsp;ovie&nbsp;</span>
+    <span aria-hidden="true" class="hover-text">&nbsp;ovie&nbsp;</span>
+</button>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -124,9 +129,30 @@
 
 <body>
 
+<!-- PRELOADER -->
+<div class="preloader">
+  <div class="intro-content">
+    <div class="loader-wrapper">
+  <span class="loader-letter">W</span>
+  <span class="loader-letter">E</span>
+  <span class="loader-letter">L</span>
+  <span class="loader-letter">L</span>
+  <span class="loader-letter">C</span>
+  <span class="loader-letter">0</span>
+  <span class="loader-letter">M</span>
+  <span class="loader-letter">E</span>
+  <span class="loader-letter">.</span>
+  <span class="loader-letter">.</span>
 
+  <div class="loader"></div>
+</div>
 
-<div class="main2">
+  </div>
+   
+
+</div>
+
+<div class="main">
 
 
 
@@ -166,7 +192,7 @@ turning ideas into visually stunning, interactive website using mordern framewor
         style="background: linear-gradient(to right, #ff7e5f, #feb47b)"
       >
         <p>HELLO THERE</p>
-        <p>Am Ashwin.A</p>
+      <i class="fa-solid fa-dumpster-fire fa-flip" style="color: #080707;"></i>
       </div>
     </div>
     <div class="item" style="--position: 2">
@@ -175,7 +201,7 @@ turning ideas into visually stunning, interactive website using mordern framewor
         style="background: linear-gradient(to right, #6a11cb, #2575fc)"
       >
         <p>Do follow on Insta</p>
-        <p>ashwin_ambar_</p>
+         <i class="fa-solid fa-dumpster-fire fa-flip" style="color: #080707;"></i>
       </div>
     </div>
     <div class="item" style="--position: 3">
@@ -184,7 +210,7 @@ turning ideas into visually stunning, interactive website using mordern framewor
         style="background: linear-gradient(to right, #00c6ff, #0072ff)"
       >
         <p>Replace cards with images</p>
-        <p>for a image slider</p>
+        <i class="fa-solid fa-dumpster-fire fa-flip" style="color: #080707;"></i>
       </div>
     </div>
     <div class="item" style="--position: 4">
@@ -193,7 +219,7 @@ turning ideas into visually stunning, interactive website using mordern framewor
         style="background: linear-gradient(to right, #ff512f, #dd2476)"
       >
         <p>Html css only</p>
-        <p>Hover to stop the slides</p>
+         <i class="fa-solid fa-dumpster-fire fa-flip" style="color: #080707;"></i>
       </div>
     </div>
     <div class="item" style="--position: 5">
@@ -202,7 +228,7 @@ turning ideas into visually stunning, interactive website using mordern framewor
         style="background: linear-gradient(to right, #ffb6c1, #ff69b4)"
       >
         <p>Card 5</p>
-        <p>Content for card 5</p>
+        <i class="fa-solid fa-dumpster-fire fa-flip" style="color: #080707;"></i>
       </div>
     </div>
     <div class="item" style="--position: 6">
@@ -211,7 +237,7 @@ turning ideas into visually stunning, interactive website using mordern framewor
         style="background: linear-gradient(to right, #ff9a8b, #ffc3a0)"
       >
         <p>Card 6</p>
-        <p>Content for card 6</p>
+        <i class="fa-solid fa-dumpster-fire fa-flip" style="color: #080707;"></i>
       </div>
     </div>
     <div class="item" style="--position: 7">
@@ -220,7 +246,7 @@ turning ideas into visually stunning, interactive website using mordern framewor
         style="background: linear-gradient(to right, #a1c4fd, #c2e9fb)"
       >
         <p>Card 7</p>
-        <p>Modify it and use</p>
+        <i class="fa-solid fa-dumpster-fire fa-flip" style="color: #080707;"></i>
       </div>
     </div>
     <div class="item" style="--position: 8">
@@ -229,7 +255,7 @@ turning ideas into visually stunning, interactive website using mordern framewor
         style="background: linear-gradient(to right, #fbc2eb, #a18cd1)"
       >
         <p>Card 8</p>
-        <p>Content for card 8</p>
+       <i class="fa-solid fa-dumpster-fire fa-flip" style="color: #080707;"></i>
       </div>
     </div>
     <div class="item" style="--position: 9">
@@ -238,7 +264,7 @@ turning ideas into visually stunning, interactive website using mordern framewor
         style="background: linear-gradient(to right, #84fab0, #8fd3f4)"
       >
         <p>card 9</p>
-        <p>Content for card 9</p>
+       <i class="fa-solid fa-dumpster-fire fa-flip" style="color: #080707;"></i>
       </div>
     </div>
   </div>
@@ -274,18 +300,18 @@ turning ideas into visually stunning, interactive website using mordern framewor
 
 </div>
   
-<script>
+<!-- <script>
   gsap.to(".kini", {
     opacity:1,
-    y: 0,
+    x: 0,
     duration:2,
     ease: "power2.out"
   });
-</script>
+</script> -->
 
 
 
-
+<!-- 
 <script>
   gsap.registerPlugin(TextPlugin);
 
@@ -294,11 +320,11 @@ gsap.fromTo(
   { text: "" },
   {
     text: "Fast · Responsive · Animated",
-    duration: 2,
+    duration: 6,
     ease: "none"
   }
 );
-</script>
+</script> -->
 
 
 
@@ -311,38 +337,19 @@ gsap.fromTo(
    
   
   </div> 
-  <script>
+  <!-- <script>
     gsap.from(".spline", {
       opacity: 0,
       x: 200,
       duration:2,
     });
-  </script>
-
-
-
-
-
-
-  <!-- <script>
-    gsap.registerPlugin(ScrollTrigger);
-
-let mm = gsap.matchMedia();
-
-mm.add("(max-width: 1024px)", () => { // screens 1024px and below
-  gsap.from(".fade", {
-    x: -80,             // start from left
-    opacity: 0,
-    duration: 0.8,
-    ease: "power2.out",
-    scrollTrigger: {
-      trigger: ".fade",
-      start: "top 80%",
-      scrub: false
-    }
-  });
-});
   </script> -->
+
+
+
+
+
+
 
  </div>
 </section>
@@ -356,9 +363,9 @@ mm.add("(max-width: 1024px)", () => { // screens 1024px and below
 
 
 
+</div>
 
   </div>
-
 
 
 
