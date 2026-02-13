@@ -55,7 +55,7 @@ function startMainAnimations() {
   // Kini animation
   gsap.to(".kini", {
     opacity: 1,
-    x: 30,
+    x:0,
     duration: 4,
     ease: "power2.out"
   });
