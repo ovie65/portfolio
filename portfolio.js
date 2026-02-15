@@ -83,8 +83,4 @@ gsap.fromTo(
 
 
 
-gsap.registerPlugin(ScrollTrigger);
-
-
-
 
