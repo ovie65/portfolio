@@ -45,9 +45,17 @@
 <script src="https://unpkg.com/gsap@3/dist/TextPlugin.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="about.js"></script>
+
+<script src="about.js" defer></script>
+<script>
+  AOS.init();
+</script>
+
+<script
+  type="module"
+  
+  src="">
+</script>
 </head>
 
 
@@ -126,8 +134,8 @@
 
 
        <div class="glass-cardee">
-        <h1 id="ki">ABOUT ME</h1>
-        <h1 id="pi">
+        <h1 class="ki" style="  color: #7dd3fc; ">ABOUT ME</h1>
+        <h1 class="pi">
           <b>Passionate Frontend Developer</b>
         </h1>
         <p id="pik">
@@ -165,8 +173,9 @@
 
     </div>
 
-
-
+<script>
+  
+</script>
 
 
 
@@ -198,7 +207,35 @@
 </div>
 
 </section>
+<section class="seciundsec">
+  
 
+
+<div class="form-container">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <div class="form">
+        <span class="heading">Get in touch</span>
+        <input placeholder="Name" type="text" class="input">
+        <input placeholder="Email" id="mail" type="email" class="input">
+        <textarea placeholder="Say Hello" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
+        <div class="button-container">
+        <div class="send-button">Send</div>
+        <div class="reset-button-container">
+            <div id="reset-btn" class="reset-button">Reset</div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</section>
 </body>
 
 
