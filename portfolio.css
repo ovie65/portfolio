@@ -229,9 +229,7 @@ body{
 
 
 #headnav{
-   background: radial-gradient(circle, rgba(11,18,32,0.8) 0%, rgba(0,0,0,0.8) 100%);
-position: fixed;
-z-index: 1000;
+
 }
 
 
