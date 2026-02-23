@@ -6,10 +6,42 @@ body{
 }
 
 
+#headnav{
+   background: radial-gradient(circle, rgba(11,18,32,0.8) 0%, rgba(0,0,0,0.8) 100%);
+position: fixed;
+z-index: 1000;
+}
 
 
-
-
+.card-img-top{
+  height:150px;
+}
+.picture-grid {
+        display: flex;
+        overflow-x: scroll; /* Enables horizontal scrolling */
+        gap: 10px;
+        scroll-behavior: smooth; /* Smooth scrolling effect */
+      }
+    
+      .picture-grid::-webkit-scrollbar {
+        height: 8px; /* Height of the horizontal scrollbar */
+      }
+    
+      .picture-grid::-webkit-scrollbar-thumb {
+         /* Color of the scrollbar thumb */
+        border-radius: 4px;     /* Rounded corners */
+      }
+    
+      .picture-grid::-webkit-scrollbar-track {
+        background-color: #f1f1f1; /* Color of the scrollbar track */
+      }
+    
+      .card {
+        flex: 0 0 auto;  /* Prevent shrinking */
+        width: 15%;     /* Adjust based on design */
+        height: 150px;   /* Example height */
+        
+      }
 
 
 
@@ -68,7 +100,7 @@ width:190px;
 
 
 .about-section{
-    
+    padding-top: 80px;
 }
 
 .first{
