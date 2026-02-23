@@ -173,7 +173,9 @@
 
 
 
-
+.main{
+  margin-top:80px;
+}
 
 body{
    margin: 0;
@@ -229,7 +231,9 @@ body{
 
 
 #headnav{
-
+       background: radial-gradient(circle at center, #0b1220, #000);
+position: fixed;
+z-index: 1000;
 }
 
 
