@@ -180,7 +180,6 @@
 body{
    margin: 0;
   overflow: hidden;
-  overflow-x: hidden;
     background: radial-gradient(circle at center, #0b1220, #000);
    
 }
@@ -458,7 +457,7 @@ gap: 5rem;
 
 .container .glass {
   position: relative;
-  width: 180px;
+  width: 170px;
   height: 200px;
   background: linear-gradient(#fff2, transparent);
   border: 1px solid rgba(255, 255, 255, 0.1);
