@@ -177,6 +177,28 @@
  
 }
 
+
+.mainreview{
+      display: flex;
+      justify-content: center;
+      gap:20px;
+    }
+    .jj{
+      text-align: center;
+      
+    }
+
+    #ll{
+      font-size:22px;
+        color: #7dd3fc; 
+    }
+    #hh{
+      font-size:15px;
+      color:white;
+    }
+
+
+
 body{
    margin: 0;
   overflow: hidden;
@@ -232,7 +254,9 @@ body{
 
 
 #headnav{
-
+     background: radial-gradient(circle at center, #0b1220, #000);
+position: fixed;
+z-index: 1000;
 }
 
 
@@ -420,7 +444,7 @@ iframe{
   display: flex;
   flex-wrap: wrap;
    padding: 20px; 
-  padding-top:calc(30px + 2rem) ;
+  padding-top:calc(60px + 4rem) ;
 
 }
 
