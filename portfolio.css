@@ -180,8 +180,9 @@
 body{
    margin: 0;
   overflow: hidden;
+  overflow-x: hidden;
     background: radial-gradient(circle at center, #0b1220, #000);
-    width:100vw;
+   
 }
 
 .preloader {
