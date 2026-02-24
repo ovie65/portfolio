@@ -181,6 +181,7 @@ body{
    margin: 0;
   overflow: hidden;
     background: radial-gradient(circle at center, #0b1220, #000);
+    width:100vw;
 }
 
 .preloader {
