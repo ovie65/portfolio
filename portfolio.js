@@ -84,3 +84,22 @@ gsap.fromTo(
 
 
 
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.from("#jill", {
+    x: -120,
+    opacity: 0,
+    duration: 1.2,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: "#jill",
+      start: "top 80%",
+      toggleActions: "play reverse play reverse",
+    }
+  });
+
+});
